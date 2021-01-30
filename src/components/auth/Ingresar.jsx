@@ -69,7 +69,7 @@ const Ingresar = (props) => {
                 <div className="container-redes">
                     <div className="item2">
 
-                    <h2 className="titulo-redes">Visitanos En</h2>
+                    <h2 className="titulo-redes">Visítanos En</h2>
                     </div>
                     <div className="item">
                     <img className="" src={Facebook} alt=""/>   
