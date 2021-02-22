@@ -13,6 +13,7 @@ import AuthState from './context/autenticacion/authState';
 // import tokenAuth from './config/tokenAuth'
 import NuevoRecurso from './components/recursos/NuevoRecurso';
 import Entrevistas from './components/entrevistas/Entrevistas';
+import Campus from './components/campus/Campus'
 
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
@@ -25,7 +26,7 @@ function App() {
         <Router>
           <Header/>
           <Switch>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/CentroDesarrollo" component={Home}/>
             <Route exact path="/ingresar" component={Ingresar}/>
             <Route exact path="/nuevo-articulo" component={NuevoArticulo}/>
             <Route exact path="/detalle-articulo/:id" component={DetalleArticulo}/>
@@ -33,6 +34,7 @@ function App() {
             <Route exact path="/detalle-recurso-tic/:id" component={DetalleRecurso}/>
             <Route exact path="/nuevo-recurso" component={NuevoRecurso}/>
             <Route exact path="/entrevistas" component={Entrevistas}/>
+            <Route exact path="/campus" component={Campus}/>
           </Switch>
           <Footer/>
         </Router>

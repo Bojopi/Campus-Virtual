@@ -17,10 +17,13 @@ const Navegacion = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                    <NavLink activeStyle={{color:'red'}}  className="nav-link" exact to="/" >Blog<span className="sr-only">(current)</span></NavLink>
+                    <NavLink activeStyle={{color:'red'}}  className="nav-link" exact to="/CentroDesarrollo" >Blog<span className="sr-only">(current)</span></NavLink>
                     </li>
                     <li className="nav-item active">
                     <NavLink activeStyle={{color:'red'}} className="nav-link" exact to="/entrevistas">Entrevistas - Experiencias</NavLink>
+                    </li>
+                    <li className="nav-item active">
+                    <NavLink activeStyle={{color:'red'}} className="nav-link" exact to="/campus">Campus Virtual</NavLink>
                     </li>
                     <li className="nav-item active">
                     <NavLink activeStyle={{color:'red'}} className="nav-link" exact to="/recursos">Recursos TICs</NavLink>
