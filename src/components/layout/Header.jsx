@@ -11,12 +11,12 @@ const Header = () => {
                 
             </nav>
 
-            {/* <div className="container">
-                <h3> <i className="material-icons">email</i> - soporte.campusvirtual@utepsa.edu</h3> */}
-                {/* <div className="container-login" id="login">
+            <div className="container">
+                <h3> <i className="material-icons">email</i> - soporte.campusvirtual@utepsa.edu</h3>
+                <div className="container-login" id="login">
                     <Link to="/ingresar" className="nav-link active" href="#"> <i className="material-icons">person</i></Link>
-                </div> */}
-            {/* </div> */}
+                </div>
+            </div>
         </header>
      );
 }
